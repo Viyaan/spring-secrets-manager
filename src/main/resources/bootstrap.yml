@@ -1,0 +1,7 @@
+aws:
+  secretsmanager:    default-context: application
+    prefix: /bytenovus/sm
+    profile-separator: _
+    fail-fast: true
+    name: ByteNovusapplication
+    enabled: true
